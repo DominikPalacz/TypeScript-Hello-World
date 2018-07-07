@@ -6,8 +6,17 @@
 //
 // //alert(greeter(user));
 // document.body.innerHTML = greeter(user);
+var Student = /** @class */ (function () {
+    function Student(firstName, middleInitial, lastName) {
+        this.firstName = firstName;
+        this.middleInitial = middleInitial;
+        this.lastName = lastName;
+        this.fullName = firstName + " " + middleInitial + " " + lastName;
+    }
+    return Student;
+}());
 function greeter(person) {
     return "Hello, " + person.firstName + " " + person.lastName;
 }
-var user = { firstName: 'Dominik', lastName: 'Palacz' };
+var user = new Student('Dominik', 'M', 'Palacz'); //{firstName: 'Dominik', lastName: 'Palacz'};
 document.body.innerHTML = greeter(user);
