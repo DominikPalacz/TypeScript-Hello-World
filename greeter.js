@@ -48,4 +48,8 @@
 // let numToStr: number = 5;
 //
 // document.write('numToStr is a ' + typeof (numToStr.toString()) + '<br />');
-// });
+var superman = {
+    realName: 'Clark Kent',
+    superName: 'Superman'
+};
+document.write(superman.realName + ' is ' + superman.superName);

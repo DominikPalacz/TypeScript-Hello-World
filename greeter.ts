@@ -50,3 +50,15 @@
 // document.write('numToStr is a ' + typeof (numToStr.toString()) + '<br />');
 
 // });
+
+interface SuperHero {
+    realName: string;
+    superName: string;
+}
+
+let superman: SuperHero = {
+    realName: 'Clark Kent',
+    superName: 'Superman'
+}
+
+document.write(superman.realName + ' is ' + superman.superName);
