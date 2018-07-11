@@ -59,7 +59,7 @@ interface SuperHero {
 let superman: SuperHero = {
     realName: 'Clark Kent',
     superName: 'Superman'
-}
+};
 
 document.write(superman.realName + ' is ' + superman.superName + '<br/>');
 
@@ -74,6 +74,21 @@ var supperheroes: SuperHero[] = [];
 supperheroes.push({
     realName: 'Bruce Wayne',
     superName: 'Batman'
-})
+});
 
-document.write('<br/>' +supperheroes[0].realName + 'is ' + supperheroes[0].superName + '<br/>')
+document.write('<br/>' +supperheroes[0].realName + 'is ' + supperheroes[0].superName + '<br/>');
+
+document.write('5 + 4 = ' + (5+4) + '<br/>');
+document.write('5 - 4 = ' + (5-4) + '<br/>');
+document.write('5 * 4 = ' + (5*4) + '<br/>');
+document.write('5 / 4 = ' + (5/4) + '<br/>');
+document.write('5 % 4 = ' + (5%4) + '<br/>');
+
+document.write('5 + String 2 = ' + (5+'2')+'<br/>');
+
+let randNum = 1;
+
+document.write('randNum++ = ' + randNum++ + '<br/>');
+document.write('++randNum = ' + ++randNum + '<br/>');
+document.write('randNum-- = ' + randNum-- + '<br/>');
+document.write('--randNum = ' + --randNum + '<br/>');
