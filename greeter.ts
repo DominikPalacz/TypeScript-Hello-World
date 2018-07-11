@@ -30,7 +30,7 @@ function greeter(person: Person) {
 
 let user = new Student('Dominik', 'M', 'Palacz'); //{firstName: 'Dominik', lastName: 'Palacz'};
 
-document.body.innerHTML = greeter(user);
+//document.body.innerHTML = greeter(user); OK ;)
 
 const myName: string = "Dominik";
 let myAge: number = 41;
@@ -38,6 +38,6 @@ let canVote: boolean = true;
 let anything: any = 'dog';
 anything = 2;
 
-document.body.innerHTML = "My name is " + myName;
+document.getElementById("tsStuff").innerHTML = "My name is " + myName;
 
 // });

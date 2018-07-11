@@ -22,11 +22,11 @@ function greeter(person) {
     return "Hello, " + person.firstName + " " + person.lastName;
 }
 var user = new Student('Dominik', 'M', 'Palacz'); //{firstName: 'Dominik', lastName: 'Palacz'};
-document.body.innerHTML = greeter(user);
+//document.body.innerHTML = greeter(user); OK ;)
 var myName = "Dominik";
 var myAge = 41;
 var canVote = true;
 var anything = 'dog';
 anything = 2;
-document.body.innerHTML = "My name is " + myName;
+document.getElementById("tsStuff").innerHTML = "My name is " + myName;
 // });
