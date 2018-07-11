@@ -6,6 +6,9 @@
 //
 // //alert(greeter(user));
 // document.body.innerHTML = greeter(user);
+//
+// document.addEventListener("DOMContentLoaded", function (event) {
+//     console.log("DOM fully loaded and parsed");
 var Student = /** @class */ (function () {
     function Student(firstName, middleInitial, lastName) {
         this.firstName = firstName;
@@ -20,3 +23,10 @@ function greeter(person) {
 }
 var user = new Student('Dominik', 'M', 'Palacz'); //{firstName: 'Dominik', lastName: 'Palacz'};
 document.body.innerHTML = greeter(user);
+var myName = "Dominik";
+var myAge = 41;
+var canVote = true;
+var anything = 'dog';
+anything = 2;
+document.body.innerHTML = "My name is " + myName;
+// });
