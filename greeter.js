@@ -52,4 +52,13 @@ var superman = {
     realName: 'Clark Kent',
     superName: 'Superman'
 };
-document.write(superman.realName + ' is ' + superman.superName);
+document.write(superman.realName + ' is ' + superman.superName + '<br/>');
+var employees = ['Dominik', 'Igor', 'Peter'];
+// employees.push(5); //err
+document.write(employees.toString());
+var supperheroes = [];
+supperheroes.push({
+    realName: 'Bruce Wayne',
+    superName: 'Batman'
+});
+document.write('<br/>' + supperheroes[0].realName + 'is ' + supperheroes[0].superName + '<br/>');

@@ -61,4 +61,19 @@ let superman: SuperHero = {
     superName: 'Superman'
 }
 
-document.write(superman.realName + ' is ' + superman.superName);
+document.write(superman.realName + ' is ' + superman.superName + '<br/>');
+
+let employees: string[] = ['Dominik','Igor','Peter'];
+
+// employees.push(5); //err
+
+document.write(employees.toString());
+
+var supperheroes: SuperHero[] = [];
+
+supperheroes.push({
+    realName: 'Bruce Wayne',
+    superName: 'Batman'
+})
+
+document.write('<br/>' +supperheroes[0].realName + 'is ' + supperheroes[0].superName + '<br/>')
