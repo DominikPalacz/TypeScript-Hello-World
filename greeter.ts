@@ -92,3 +92,21 @@ document.write('randNum++ = ' + randNum++ + '<br/>');
 document.write('++randNum = ' + ++randNum + '<br/>');
 document.write('randNum-- = ' + randNum-- + '<br/>');
 document.write('--randNum = ' + --randNum + '<br/>');
+
+//todo 16:33
+
+let sampleLet = 123;
+
+if (true) {
+   let sampleLet = 456;
+}
+
+document.write("sampleLet : " + sampleLet + "<br />");
+
+var sampleVar = 133323;
+
+if (true) {
+    var sampleVar = 444456;
+}
+
+document.write("sampleVar : " + sampleVar + "<br />");
