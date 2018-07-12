@@ -63,7 +63,7 @@ let superman: SuperHero = {
 
 document.write(superman.realName + ' is ' + superman.superName + '<br/>');
 
-let employees: string[] = ['Dominik','Igor','Peter'];
+let employees: string[] = ['Dominik', 'Igor', 'Peter'];
 
 // employees.push(5); //err
 
@@ -76,15 +76,15 @@ supperheroes.push({
     superName: 'Batman'
 });
 
-document.write('<br/>' +supperheroes[0].realName + 'is ' + supperheroes[0].superName + '<br/>');
+document.write('<br/>' + supperheroes[0].realName + 'is ' + supperheroes[0].superName + '<br/>');
 
-document.write('5 + 4 = ' + (5+4) + '<br/>');
-document.write('5 - 4 = ' + (5-4) + '<br/>');
-document.write('5 * 4 = ' + (5*4) + '<br/>');
-document.write('5 / 4 = ' + (5/4) + '<br/>');
-document.write('5 % 4 = ' + (5%4) + '<br/>');
+document.write('5 + 4 = ' + (5 + 4) + '<br/>');
+document.write('5 - 4 = ' + (5 - 4) + '<br/>');
+document.write('5 * 4 = ' + (5 * 4) + '<br/>');
+document.write('5 / 4 = ' + (5 / 4) + '<br/>');
+document.write('5 % 4 = ' + (5 % 4) + '<br/>');
 
-document.write('5 + String 2 = ' + (5+'2')+'<br/>');
+document.write('5 + String 2 = ' + (5 + '2') + '<br/>');
 
 let randNum = 1;
 
@@ -98,7 +98,7 @@ document.write('--randNum = ' + --randNum + '<br/>');
 let sampleLet = 123;
 
 if (true) {
-   let sampleLet = 456;
+    let sampleLet = 456;
 }
 
 document.write("sampleLet : " + sampleLet + "<br />");
@@ -110,3 +110,15 @@ if (true) {
 }
 
 document.write("sampleVar : " + sampleVar + "<br />");
+
+var randArry = [5, 6, 7, 8];
+
+for (var val in randArry) {
+    document.write(val + '<br/>')
+}
+
+var strArray = randArry.map(String);
+
+for (var val of strArray) {
+    document.write(val + '<br />')
+}
